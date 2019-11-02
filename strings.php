@@ -37,6 +37,12 @@
         $posicao = strpos($frase, "a", $posicao+1);
     }
 
+    $buscaString = strchr($frase, " ");
+    echo $buscaString . "<br/>";
+
+    
+    
+
     ?>    
 </body>
 </html>
