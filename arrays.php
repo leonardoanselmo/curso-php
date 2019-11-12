@@ -10,8 +10,21 @@
     <?php
 
         // Cria um array e imprime o seu conteúdo.
-        $arrayExemplo = array("PHP", "SQL", 100, "Java");
+        $arrayExemplo = array("PHP", "SQL", 100, "curso" => "Java");
         print_r($arrayExemplo);
+        echo "<br/>";
+
+        // Exibe o conteudo de acordo com a posição no array.
+        echo "Posição 0: ".$arrayExemplo[0]."<br/>";
+        echo "Posição curso: ".$arrayExemplo["curso"]."<br/>";
+
+        // Exclui um elemento no array buscando pela chave.
+        unset($arrayExemplo["curso"]);
+        print_r($arrayExemplo);
+        echo "<br/>";
+
+        
+
 
 
     ?>
