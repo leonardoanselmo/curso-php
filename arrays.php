@@ -23,6 +23,10 @@
         print_r($arrayExemplo);
         echo "<br/>";
 
+        // Conta quantos elementos tem no array.
+        echo "Têm quantos elementos o array? ".count($arrayExemplo)."<br/>";
+
+
         
 
 
